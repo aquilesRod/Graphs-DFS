@@ -9,7 +9,7 @@ public class DepthSearch {
     private int [] visitFinished;
     private Integer [] antecedent;
     private int time;
-
+ 
     public DepthSearch(int[][] adjacencyMatrix, Integer vertice) {
         this.adjacencyMatrix = adjacencyMatrix;
         this.fontVertice = vertice;

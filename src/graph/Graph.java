@@ -5,7 +5,7 @@ public class Graph {
 
     private Scanner file;
     private int [][] adjacencyMatrix;
-    private int edgesQuantity;
+    private int edgesQuantity; 
     private int verticesQuantity;
 
     public Graph(Scanner file) {

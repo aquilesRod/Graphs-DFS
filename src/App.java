@@ -9,7 +9,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         Graph graph = new Graph(readFile());
-        DepthSearch dfs;
+        DepthSearch dfs; 
 
         int [][] adjacencyMatrix = graph.getAdjacencyMatrix();
         int fontVertice, destineVertice;
